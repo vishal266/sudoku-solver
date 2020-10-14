@@ -1,4 +1,4 @@
-State space search - Sudoku solver for a 9 X 9 board
+Sudoku solver for a 9 X 9 board
 
 Assumptions made:
 
