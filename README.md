@@ -64,13 +64,3 @@ Here are the maven commands and java -jar command to run the sudoku solver.
 
 	e. Finally, navigate to the target directory and run the JAR using:
 		java -jar sudoku-1.0-SNAPSHOT.jar
-	
-If there are any issues with running the application, please reach out to me at vishal266@gmail.com
-
-3. If the above does not work, just unzip the target file attached and navigate to the target folder and run the following command:
-	java -jar sudoku-1.0-SNAPSHOT.jar
-	
-	The above command should definitely work provided it is inside target folder containing all the decompiled classes, lib folder, maven surefire test reports, etc.
-	
-
-Readme prepared by Vishal Gautham Venkataraaman - vishal266@gmail.com	
