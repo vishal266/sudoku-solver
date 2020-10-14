@@ -10,11 +10,7 @@ Uninformed search allows us to perform search without any prior information or a
 On the other hand, heuristic search allows us to consider and assign weights in the form of a function that helps to solve the problem faster than above by removing unnecessary
 states that do not help us reach the goal.
 
-In this project, with my knowledge in Depth First Search and Breadth First search algorithms, I was able to solve the sudoku puzzle.
-With no prior background in AI, I could not implement any of the heuristic search algorithms such as A*, Branch-and-bound, etc due to time constraints. Also, I was not able to
-come up with any heuristic functions that would help me to reach the goal easier.
-
-Although I could not implement it myself, I have designed my project solution in such a way that the support for the heuristic algorithms can be easily added in the future if needed.
+Although heuristic searches have not been implemented here, I have designed this project solution in such a way that the support for the heuristic algorithms can be easily added in the future if needed.
 
 Little background about the sudoku problem and the features I added:
 
