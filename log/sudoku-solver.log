@@ -1,0 +1,62 @@
+2020-10-12 16:40:21 INFO  SudokuSolver:47 - Solving sudoku puzzle1 with DFS...
+2020-10-12 16:40:21 INFO  SearchFactory:26 - Depth first search to be used...
+2020-10-12 16:40:22 INFO  Search:157 - The solved puzzle is: 
+5	3	4	6	7	8	9	1	2	
+6	7	2	1	9	5	3	4	8	
+1	9	8	3	4	2	5	6	7	
+8	5	9	7	6	1	4	2	3	
+4	2	6	8	5	3	7	9	1	
+7	1	3	9	2	4	8	5	6	
+9	6	1	5	3	7	2	8	4	
+2	8	7	4	1	9	6	3	5	
+3	4	5	2	8	6	1	7	9	
+
+2020-10-12 16:40:22 INFO  Search:158 - Time taken (in ms): 28
+2020-10-12 16:40:22 INFO  Search:159 - Number of iterations: 475
+2020-10-12 16:40:22 INFO  SudokuSolver:55 - DFS SOLUTION_FOUND for puzzle 1
+2020-10-12 16:40:22 INFO  SudokuSolver:57 - Solving sudoku puzzle1 with BFS...
+2020-10-12 16:40:22 INFO  SearchFactory:22 - Breadth first search to be used...
+2020-10-12 16:40:22 INFO  Search:157 - The solved puzzle is: 
+5	3	4	6	7	8	9	1	2	
+6	7	2	1	9	5	3	4	8	
+1	9	8	3	4	2	5	6	7	
+8	5	9	7	6	1	4	2	3	
+4	2	6	8	5	3	7	9	1	
+7	1	3	9	2	4	8	5	6	
+9	6	1	5	3	7	2	8	4	
+2	8	7	4	1	9	6	3	5	
+3	4	5	2	8	6	1	7	9	
+
+2020-10-12 16:40:22 INFO  Search:158 - Time taken (in ms): 445
+2020-10-12 16:40:22 INFO  Search:159 - Number of iterations: 29347
+2020-10-12 16:40:22 INFO  SudokuSolver:64 - BFS SOLUTION_FOUND for puzzle 1
+2020-10-12 16:40:22 INFO  SudokuSolver:66 - Solving sudoku puzzle2 with DFS...
+2020-10-12 16:40:25 INFO  Search:157 - The solved puzzle is: 
+5	8	1	6	7	2	4	3	9	
+7	9	2	8	4	3	6	5	1	
+3	6	4	5	9	1	7	8	2	
+4	3	8	9	5	7	2	1	6	
+2	5	6	1	8	4	9	7	3	
+1	7	9	3	2	6	8	4	5	
+8	4	5	2	1	9	3	6	7	
+9	1	3	7	6	8	5	2	4	
+6	2	7	4	3	5	1	9	8	
+
+2020-10-12 16:40:25 INFO  Search:158 - Time taken (in ms): 2858
+2020-10-12 16:40:25 INFO  Search:159 - Number of iterations: 440347
+2020-10-12 16:40:25 INFO  SudokuSolver:72 - DFS SOLUTION_FOUND for puzzle 2
+2020-10-12 16:40:25 INFO  SudokuSolver:74 - Solving sudoku puzzle2 with BFS...
+2020-10-12 16:40:32 INFO  Search:157 - The solved puzzle is: 
+5	8	1	6	7	2	4	3	9	
+7	9	2	8	4	3	6	5	1	
+3	6	4	5	9	1	7	8	2	
+4	3	8	9	5	7	2	1	6	
+2	5	6	1	8	4	9	7	3	
+1	7	9	3	2	6	8	4	5	
+8	4	5	2	1	9	3	6	7	
+9	1	3	7	6	8	5	2	4	
+6	2	7	4	3	5	1	9	8	
+
+2020-10-12 16:40:32 INFO  Search:158 - Time taken (in ms): 7410
+2020-10-12 16:40:32 INFO  Search:159 - Number of iterations: 1246294
+2020-10-12 16:40:32 INFO  SudokuSolver:78 - BFS SOLUTION_FOUND for puzzle 2
