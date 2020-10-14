@@ -14,10 +14,7 @@ Although heuristic searches have not been implemented here, I have designed this
 
 Little background about the sudoku problem and the features I added:
 
-1. The APIs given to me were not modified. They were used as is and I designed the solution in such a way that I used the APIs as a baseline framework to provide support to 
-the DFS and BFS search algorithms.
-
-2. The brute force way of solving sudoku puzzle is by assigning each box from 1-9 for 9X9 board, which means, there are a total of 9 to the power of 81 operations involved,
+1. The brute force way of solving sudoku puzzle is by assigning each box from 1-9 for 9X9 board, which means, there are a total of 9 to the power of 81 operations involved,
 where 9 is the total numbers from 1-9 and 81 boxes to fill and then we individually check if one of the combination reaches the solution/goal state.
 
 However with search algorithms like Depth First Search, the above number of operations can be drastically reduced.
@@ -26,13 +23,11 @@ This basically means that for one row, we can take upto 9! operations to fill. T
 
 This is enormously faster than the naive brute force approach.
 
-3. Metrics comparing DFS and BFS have been added to compare total time taken to solve easy and difficult puzzles and total number of iterations involved.
+2. Metrics comparing DFS and BFS have been added to compare total time taken to solve easy and difficult puzzles and total number of iterations involved.
 
-4. Logger functionality has been added across the project with apache-log4j. A log file will be made available whenever you run the application.
+3. Logger functionality has been added across the project with apache-log4j. A log file will be made available whenever you run the application.
 
-5. Unit tests have been added to test different test cases, go through the test cases and run them for generating test reports.
-
-6. Go through all the packages, comments have been added for almost all classes and test classes.
+4. Unit tests have been added to test different test cases, go through the test cases and run them for generating test reports.
 
 Instructions to run the project and solution:
 
