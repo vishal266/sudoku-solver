@@ -1,7 +1,59 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e3293a92-d654-45e3-b504-628446e11ba7" name="Default Changelist" comment="" />
+    <list default="true" id="e3293a92-d654-45e3-b504-628446e11ba7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/sudoku-solver.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/vishal/workday/solver/sudoku/SudokuSolver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vishal/solver/sudoku/SudokuSolver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/vishal/workday/solver/sudoku/exception/SearchNotSupportedException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vishal/solver/sudoku/exception/SearchNotSupportedException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/vishal/workday/solver/sudoku/exception/SudokuBoardInvalidException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vishal/solver/sudoku/exception/SudokuBoardInvalidException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/vishal/workday/solver/sudoku/exception/SudokuBoardNullException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vishal/solver/sudoku/exception/SudokuBoardNullException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/vishal/workday/solver/sudoku/exception/SudokuBoardSizeException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vishal/solver/sudoku/exception/SudokuBoardSizeException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/vishal/workday/solver/sudoku/helper/SudokuHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vishal/solver/sudoku/helper/SudokuHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/vishal/workday/solver/sudoku/model/SimpleMetrics.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vishal/solver/sudoku/model/SimpleMetrics.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/vishal/workday/solver/sudoku/model/SudokuBoard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vishal/solver/sudoku/model/SudokuBoard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/vishal/workday/solver/sudoku/node/SearchNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vishal/solver/sudoku/node/SearchNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/vishal/workday/solver/sudoku/node/SearchNodeImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vishal/solver/sudoku/node/SearchNodeImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/vishal/workday/solver/sudoku/node/frontier/FrontierNodeSet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vishal/solver/sudoku/node/frontier/FrontierNodeSet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/vishal/workday/solver/sudoku/node/frontier/FrontierNodeSetQueueImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vishal/solver/sudoku/node/frontier/FrontierNodeSetQueueImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/vishal/workday/solver/sudoku/node/frontier/FrontierNodeSetStackImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vishal/solver/sudoku/node/frontier/FrontierNodeSetStackImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/vishal/workday/solver/sudoku/search/BreadthFirstSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vishal/solver/sudoku/search/BreadthFirstSearch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/vishal/workday/solver/sudoku/search/DepthFirstSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vishal/solver/sudoku/search/DepthFirstSearch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/vishal/workday/solver/sudoku/search/Search.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vishal/solver/sudoku/search/Search.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/vishal/workday/solver/sudoku/search/SearchFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vishal/solver/sudoku/search/SearchFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/vishal/workday/solver/sudoku/search/SearchType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vishal/solver/sudoku/search/SearchType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/vishal/workday/solver/sudoku/SudokuBfsSolverTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/vishal/solver/sudoku/SudokuBfsSolverTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/vishal/workday/solver/sudoku/SudokuDfsSolverTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/vishal/solver/sudoku/SudokuDfsSolverTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/vishal/workday/solver/sudoku/helper/SudokuTestHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/vishal/solver/sudoku/helper/SudokuTestHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/vishal/workday/solver/sudoku/search/SearchTypeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/vishal/solver/sudoku/search/SearchTypeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sudoku.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/vishal/workday/solver/sudoku/SudokuSolver.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/vishal/workday/solver/sudoku/exception/SearchNotSupportedException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/vishal/workday/solver/sudoku/exception/SudokuBoardInvalidException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/vishal/workday/solver/sudoku/exception/SudokuBoardNullException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/vishal/workday/solver/sudoku/exception/SudokuBoardSizeException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/vishal/workday/solver/sudoku/helper/SudokuHelper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/vishal/workday/solver/sudoku/model/SimpleMetrics.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/vishal/workday/solver/sudoku/model/SudokuBoard.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/vishal/workday/solver/sudoku/node/SearchNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/vishal/workday/solver/sudoku/node/SearchNodeImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/vishal/workday/solver/sudoku/node/frontier/FrontierNodeSet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/vishal/workday/solver/sudoku/node/frontier/FrontierNodeSetQueueImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/vishal/workday/solver/sudoku/node/frontier/FrontierNodeSetStackImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/vishal/workday/solver/sudoku/search/BreadthFirstSearch.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/vishal/workday/solver/sudoku/search/DepthFirstSearch.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/vishal/workday/solver/sudoku/search/Search$SolveStatus.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/vishal/workday/solver/sudoku/search/Search.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/vishal/workday/solver/sudoku/search/SearchFactory$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/vishal/workday/solver/sudoku/search/SearchFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/vishal/workday/solver/sudoku/search/SearchType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/vishal/workday/solver/sudoku/SudokuBfsSolverTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/vishal/workday/solver/sudoku/SudokuDfsSolverTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/vishal/workday/solver/sudoku/helper/SudokuTestHelper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/vishal/workday/solver/sudoku/search/SearchTypeTest.class" beforeDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,18 +68,9 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/vishal/workday/solver/sudoku/node/SearchNode.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/vishal/solver/sudoku/node/frontier/FrontierNodeSetQueueImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="20" column="7" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/vishal/workday/solver/sudoku/node/frontier/FrontierNodeSetQueueImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
+            <state relative-caret-position="374">
               <caret line="28" column="45" selection-start-line="28" selection-start-column="45" selection-end-line="28" selection-end-column="45" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -40,11 +83,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/vishal/workday/solver/sudoku/node/frontier/FrontierNodeSetStackImpl.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/vishal/solver/sudoku/node/frontier/FrontierNodeSetStackImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="612">
-              <caret line="36" column="28" lean-forward="true" selection-start-line="36" selection-start-column="28" selection-end-line="36" selection-end-column="28" />
+            <state relative-caret-position="408">
+              <caret line="24" column="52" selection-start-line="24" selection-start-column="52" selection-end-line="24" selection-end-column="52" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#338#339#0" expanded="true" />
@@ -55,10 +98,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/vishal/workday/solver/sudoku/node/SearchNodeImpl.java">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="33" column="24" selection-start-line="33" selection-start-column="24" selection-end-line="33" selection-end-column="24" />
+            <state relative-caret-position="119">
+              <caret line="7" column="35" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/vishal/solver/sudoku/node/SearchNodeImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="19" column="5" lean-forward="true" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1004#1005#0" expanded="true" />
@@ -69,9 +121,9 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/vishal/workday/solver/sudoku/search/SearchTypeTest.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/vishal/solver/sudoku/search/SearchTypeTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
+            <state relative-caret-position="374">
               <caret line="22" column="18" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="18" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -81,52 +133,43 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/vishal/workday/solver/sudoku/SudokuBfsSolverTest.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/vishal/solver/sudoku/SudokuBfsSolverTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1105">
-              <caret line="77" column="23" selection-start-line="77" selection-start-column="23" selection-end-line="77" selection-end-column="23" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="221">
+              <caret line="13" column="52" selection-start-line="13" selection-start-column="52" selection-end-line="13" selection-end-column="52" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/vishal/workday/solver/sudoku/SudokuDfsSolverTest.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/vishal/solver/sudoku/SudokuDfsSolverTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="38" column="24" selection-start-line="38" selection-start-column="24" selection-end-line="38" selection-end-column="24" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="238">
+              <caret line="14" selection-start-line="14" selection-end-line="14" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/vishal/workday/solver/sudoku/SudokuSolver.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/vishal/solver/sudoku/SudokuSolver.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="841">
-              <caret line="72" selection-start-line="72" selection-end-line="72" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="170">
+              <caret line="10" selection-start-line="10" selection-end-line="10" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/vishal/workday/solver/sudoku/model/SimpleMetrics.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/vishal/solver/sudoku/model/SimpleMetrics.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="272">
-              <caret line="16" column="32" lean-forward="true" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
+              <caret line="16" column="32" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/vishal/workday/solver/sudoku/search/SearchFactory.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/vishal/solver/sudoku/search/SearchFactory.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="68">
               <caret line="5" column="3" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
@@ -158,14 +201,15 @@
       <find>debug</find>
       <find>verbosity</find>
       <find>matrix</find>
+      <find>workday</find>
     </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/FrontierNodeSet.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Driver.java" />
-        <option value="$PROJECT_DIR$/src/main/java/SearchNode.java" />
         <option value="$PROJECT_DIR$/src/main/java/SudokuSolver.java" />
         <option value="$PROJECT_DIR$/src/main/java/DepthFirstSearch.java" />
         <option value="$PROJECT_DIR$/src/main/java/BreadthFirstSearch.java" />
@@ -197,7 +241,6 @@
         <option value="$PROJECT_DIR$/src/test/java/com/vishal/workday/solver/sudoku/SearchTypeTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/vishal/workday/solver/sudoku/helper/SudokuTestHelper.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/vishal/workday/solver/sudoku/SudokuSolverTest.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/vishal/workday/solver/sudoku/search/Search.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/vishal/workday/solver/sudoku/SudokuSolver.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/vishal/workday/solver/sudoku/search/SearchFactory.java" />
@@ -213,6 +256,11 @@
         <option value="$PROJECT_DIR$/src/main/java/com/vishal/workday/solver/sudoku/helper/SudokuHelper.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/vishal/workday/solver/sudoku/node/frontier/FrontierNodeSetQueueImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/vishal/workday/solver/sudoku/node/frontier/FrontierNodeSetStackImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/vishal/solver/sudoku/node/frontier/FrontierNodeSetStackImpl.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/com/vishal/solver/sudoku/SudokuBfsSolverTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/vishal/solver/sudoku/SudokuDfsSolverTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/vishal/solver/sudoku/SudokuSolver.java" />
       </list>
     </option>
   </component>
@@ -227,71 +275,44 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="sudoku" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sudoku" type="462c0819:PsiDirectoryNode" />
+              <item name="sudoku-solver" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sudoku-solver" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="sudoku" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sudoku" type="462c0819:PsiDirectoryNode" />
+              <item name="sudoku-solver" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sudoku-solver" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="sudoku" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sudoku" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sudoku" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sudoku" type="462c0819:PsiDirectoryNode" />
+              <item name="sudoku-solver" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sudoku-solver" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="sudoku" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sudoku" type="462c0819:PsiDirectoryNode" />
+              <item name="sudoku-solver" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sudoku-solver" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="sudoku" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="sudoku" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sudoku" type="462c0819:PsiDirectoryNode" />
+              <item name="sudoku-solver" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sudoku-solver" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="sudoku" type="462c0819:PsiDirectoryNode" />
-              <item name="exception" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="sudoku" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sudoku" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="sudoku" type="462c0819:PsiDirectoryNode" />
-              <item name="helper" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sudoku" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sudoku" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="sudoku" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sudoku" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sudoku" type="462c0819:PsiDirectoryNode" />
+              <item name="sudoku-solver" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sudoku-solver" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -299,57 +320,29 @@
               <item name="node" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="sudoku" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sudoku" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="sudoku" type="462c0819:PsiDirectoryNode" />
-              <item name="node" type="462c0819:PsiDirectoryNode" />
-              <item name="frontier" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sudoku" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sudoku" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="sudoku" type="462c0819:PsiDirectoryNode" />
-              <item name="search" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sudoku" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sudoku" type="462c0819:PsiDirectoryNode" />
+              <item name="sudoku-solver" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sudoku-solver" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="sudoku" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sudoku" type="462c0819:PsiDirectoryNode" />
+              <item name="sudoku-solver" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sudoku-solver" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="sudoku" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sudoku" type="462c0819:PsiDirectoryNode" />
+              <item name="sudoku-solver" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sudoku-solver" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="sudoku" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="sudoku" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sudoku" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="sudoku" type="462c0819:PsiDirectoryNode" />
-              <item name="helper" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sudoku" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sudoku" type="462c0819:PsiDirectoryNode" />
+              <item name="sudoku-solver" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sudoku-solver" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -363,15 +356,17 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="C:/AkoyaDev/sudoku-master" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -392,7 +387,7 @@
   </component>
   <component name="RunManager" selected="Application.SudokuSolver">
     <configuration name="SudokuSolver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.vishal.workday.solver.sudoku.SudokuSolver" />
+      <option name="MAIN_CLASS_NAME" value="com.vishal.solver.sudoku.SudokuSolver" />
       <module name="sudoku" />
       <extension name="coverage">
         <pattern>
@@ -412,13 +407,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="com.vishal.solver.sudoku in sudoku" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="sudoku" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.vishal.solver.sudoku.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.vishal.solver.sudoku" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.SudokuSolver" />
       <item itemvalue="JUnit.All in sudoku" />
+      <item itemvalue="JUnit.com.vishal.solver.sudoku in sudoku" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.SudokuSolver" />
+        <item itemvalue="JUnit.com.vishal.solver.sudoku in sudoku" />
         <item itemvalue="JUnit.All in sudoku" />
       </list>
     </recent_temporary>
@@ -437,13 +448,11 @@
       <workItem from="1602313094196" duration="66429000" />
       <workItem from="1602545051256" duration="1099000" />
       <workItem from="1602718634560" duration="45000" />
+      <workItem from="1602719378527" duration="307000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SudokuSolverTest_testSolveEasyBoard - 2020.10.11 at 16h 51m 47s.xml">
-      <configuration name="SudokuSolverTest.testSolveEasyBoard" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="SudokuSolverTest_testSolveEasyBoard - 2020.10.11 at 16h 53m 19s.xml">
       <configuration name="SudokuSolverTest.testSolveEasyBoard" configurationId="JUnit" />
     </history-entry>
@@ -471,15 +480,18 @@
     <history-entry file="All_in_sudoku - 2020.10.11 at 17h 24m 40s.xml">
       <configuration name="All in sudoku" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="com_vishal_solver_sudoku_in_sudoku - 2020.10.14 at 16h 53m 41s.xml">
+      <configuration name="com.vishal.solver.sudoku in sudoku" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="76184000" />
+    <option name="totallyTimeSpent" value="76491000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1633" height="1053" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25904763" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26222223" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -488,7 +500,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.2892741" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.2892741" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.31744313" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -629,14 +641,7 @@
         <state relative-caret-position="-2606" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/vishal/workday/solver/sudoku/search/DepthFirstSearch.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/vishal/solver/sudoku/search/DepthFirstSearch.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="138">
           <caret line="12" column="3" lean-forward="true" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
@@ -646,7 +651,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/vishal/workday/solver/sudoku/node/frontier/FrontierNodeSet.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/vishal/solver/sudoku/node/frontier/FrontierNodeSet.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
           <caret line="24" column="7" selection-start-line="24" selection-start-column="7" selection-end-line="24" selection-end-column="7" />
@@ -656,14 +661,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/vishal/workday/solver/sudoku/exception/SudokuBoardSizeException.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/vishal/solver/sudoku/exception/SudokuBoardSizeException.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/vishal/workday/solver/sudoku/exception/SudokuBoardNullException.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/vishal/solver/sudoku/exception/SudokuBoardNullException.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="5" lean-forward="true" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
@@ -674,21 +679,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/vishal/workday/solver/sudoku/exception/SudokuBoardInvalidException.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/vishal/solver/sudoku/exception/SudokuBoardInvalidException.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
           <caret line="3" column="38" selection-start-line="3" selection-start-column="38" selection-end-line="3" selection-end-column="38" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/vishal/workday/solver/sudoku/exception/SearchNotSupportedException.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/vishal/solver/sudoku/exception/SearchNotSupportedException.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
           <caret line="3" column="38" selection-start-line="3" selection-start-column="38" selection-end-line="3" selection-end-column="38" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/vishal/workday/solver/sudoku/helper/SudokuHelper.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/vishal/solver/sudoku/helper/SudokuHelper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
           <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
@@ -698,7 +703,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/vishal/workday/solver/sudoku/search/BreadthFirstSearch.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/vishal/solver/sudoku/search/BreadthFirstSearch.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="561">
           <caret line="35" column="19" selection-start-line="35" selection-start-column="19" selection-end-line="35" selection-end-column="19" />
@@ -710,14 +715,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/vishal/workday/solver/sudoku/search/SearchType.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/vishal/solver/sudoku/search/SearchType.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/vishal/workday/solver/sudoku/model/SudokuBoard.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/vishal/solver/sudoku/model/SudokuBoard.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
           <caret line="17" column="11" selection-start-line="17" selection-start-column="11" selection-end-line="17" selection-end-column="11" />
@@ -728,7 +733,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/vishal/workday/solver/sudoku/search/Search.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/vishal/solver/sudoku/search/Search.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1836">
           <caret line="124" column="51" selection-start-line="124" selection-start-column="51" selection-end-line="124" selection-end-column="51" />
@@ -740,92 +745,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/vishal/workday/solver/sudoku/helper/SudokuTestHelper.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/vishal/solver/sudoku/helper/SudokuTestHelper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1581">
           <caret line="97" selection-start-line="97" selection-end-line="97" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/vishal/workday/solver/sudoku/search/SearchTypeTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="22" column="18" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/vishal/workday/solver/sudoku/SudokuBfsSolverTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1105">
-          <caret line="77" column="23" selection-start-line="77" selection-start-column="23" selection-end-line="77" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/vishal/workday/solver/sudoku/SudokuDfsSolverTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="38" column="24" selection-start-line="38" selection-start-column="24" selection-end-line="38" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/vishal/workday/solver/sudoku/search/SearchFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="5" column="3" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/vishal/workday/solver/sudoku/SudokuSolver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="841">
-          <caret line="72" selection-start-line="72" selection-end-line="72" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/vishal/workday/solver/sudoku/model/SimpleMetrics.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="32" lean-forward="true" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/vishal/workday/solver/sudoku/node/SearchNodeImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="33" column="24" selection-start-line="33" selection-start-column="24" selection-end-line="33" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1004#1005#0" expanded="true" />
-            <element signature="e#1042#1043#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/vishal/workday/solver/sudoku/node/SearchNode.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/vishal/solver/sudoku/node/SearchNode.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
           <caret line="20" column="7" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/vishal/workday/solver/sudoku/node/frontier/FrontierNodeSetQueueImpl.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/vishal/solver/sudoku/node/frontier/FrontierNodeSetQueueImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
+        <state relative-caret-position="374">
           <caret line="28" column="45" selection-start-line="28" selection-start-column="45" selection-end-line="28" selection-end-column="45" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -837,14 +773,81 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/vishal/workday/solver/sudoku/node/frontier/FrontierNodeSetStackImpl.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/vishal/solver/sudoku/model/SimpleMetrics.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="36" column="28" lean-forward="true" selection-start-line="36" selection-start-column="28" selection-end-line="36" selection-end-column="28" />
+        <state relative-caret-position="272">
+          <caret line="16" column="32" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/vishal/solver/sudoku/search/SearchFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="5" column="3" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/vishal/solver/sudoku/node/frontier/FrontierNodeSetStackImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="52" selection-start-line="24" selection-start-column="52" selection-end-line="24" selection-end-column="52" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#338#339#0" expanded="true" />
             <element signature="e#377#378#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="35" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/vishal/solver/sudoku/SudokuSolver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/vishal/solver/sudoku/SudokuDfsSolverTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/vishal/solver/sudoku/SudokuBfsSolverTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="52" selection-start-line="13" selection-start-column="52" selection-end-line="13" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/vishal/solver/sudoku/search/SearchTypeTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="18" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/vishal/solver/sudoku/node/SearchNodeImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="5" lean-forward="true" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1004#1005#0" expanded="true" />
+            <element signature="e#1042#1043#0" expanded="true" />
           </folding>
         </state>
       </provider>
