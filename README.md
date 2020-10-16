@@ -2,7 +2,7 @@ Sudoku solver for a 9 X 9 board
 
 Assumptions made:
 
-1. This algorithm currently works with a 9 X 9 board, however it can be extended to provide support for different variants - Mini (6*6), normal (9*9) and Hypersize (16*16).
+1. This algorithm currently works with a 9 X 9 board, however it can be extended to provide support for different variants - Mini (6 X 6), normal (9 X 9) and Hypersize (16 X 16).
 
 2. In AI, State space search algorithms can be broadly classified as uninformed search and heuristic search.
 Uninformed search allows us to perform search without any prior information or a function about the goal's location which makes it exhaustive and less efficient.
